@@ -1,0 +1,35 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+/*header style*/
+
+.flower-photo{
+    width: 600px;
+    
+}
+.flower-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+
+}
+.heading{
+    font-size: 80px;
+    font-weight: 800;
+}
+.flower-discription{
+    color: rgba(63, 63, 63, 0.6);
+    font-size: 16px;
+    display: flex;
+    margin: 32px 0;
+    max-width: 500px;
+}
+.btn{
+    padding: 20px 45px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white; 
+    border: 0;
+}
