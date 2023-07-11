@@ -5,6 +5,7 @@ body {
 /*header style*/
 .flower-photo {
     width: 400px;
+    padding-bottom: 0;
 
 }
 
@@ -43,15 +44,18 @@ body {
 .heading-2 {
     font-size: 40px;
     color: black;
-    padding-top: 50px;
+    padding-top: 150px;
+    text-align: center;
+
+
 
 }
 
 .flower-paragraph {
     text-align: center;
     color: rgba(63, 63, 63, 0.6);
-    display: flex;
-    width: 594px;
+    padding-bottom: 30px;
+    padding-top: 0px;
 
 
 }
@@ -100,10 +104,12 @@ body {
     height: 500px;
     margin: 50px 0;
    /* display: flex;*/
+   
 }
 
-.email input {
-    padding: 22px 0px 23px 22px;
+.email input ,button {
+    padding: 22px 200px 23px 22px;
     border: 0;
-    width: 30%  
+    gap: 20px;
+    border-radius: 5px;
 }
