@@ -4,7 +4,7 @@ body {
 
 /*header style*/
 .flower-photo {
-    width: 500px;
+    width: 600px;
 
 }
 
@@ -43,7 +43,7 @@ body {
 .heading-2 {
     font-size: 40px;
     color: black;
-    /* text-align: center;*/
+    text-align: center;
     padding-top: 50px;
 
 }
@@ -53,7 +53,7 @@ body {
     color: rgba(63, 63, 63, 0.6);
     display: flex;
     width: 594px;
-    flex-direction: column;
+
 
 }
 
@@ -71,6 +71,18 @@ body {
     background: rgba(229, 84, 115, 0.05);
     max-width: auto;
     margin: 0;
-    padding: 120px 30px;
-    
+    padding: 120px 30px;   
+}
+/*main section 4 flower style */
+.flower-artical{
+    text-align: center;
+    color: rgba(63, 63, 63, 0.6);
+   /* display: flex;*/
+    width: 594px;
+}
+.flower-all{
+    height: 350px;
+    width: 300px;
+    display: flex;
+    gap: 23px;
 }
