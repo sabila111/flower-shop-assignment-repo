@@ -1,35 +1,76 @@
-body{
+body {
     font-family: 'Lato', sans-serif;
 }
-/*header style*/
 
-.flower-photo{
-    width: 600px;
-    
+/*header style*/
+.flower-photo {
+    width: 500px;
+
 }
-.flower-container{
+
+.flower-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100vh;
+    margin: 0;
     background: rgba(229, 84, 115, 0.10);
 
 }
-.heading{
+
+.heading {
     font-size: 80px;
     font-weight: 800;
 }
-.flower-discription{
+
+.flower-discription {
     color: rgba(63, 63, 63, 0.6);
     font-size: 16px;
     display: flex;
     margin: 32px 0;
     max-width: 500px;
 }
-.btn{
+
+.btn {
     padding: 20px 45px;
     border-radius: 8px;
     background: #E55473;
-    color: white; 
+    color: white;
     border: 0;
+}
+
+/*main section design*/
+.heading-2 {
+    font-size: 40px;
+    color: black;
+    /* text-align: center;*/
+    padding-top: 50px;
+
+}
+
+.flower-paragraph {
+    text-align: center;
+    color: rgba(63, 63, 63, 0.6);
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+
+}
+
+.span {
+    color: #E55473;
+}
+
+.center-btn {
+    text-align: center;
+}
+
+.flower-section-2 {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(229, 84, 115, 0.05);
+    max-width: auto;
+    margin: 0;
+    padding: 120px 30px;
+    
 }
