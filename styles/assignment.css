@@ -40,6 +40,55 @@ body {
 }
 
 /*main section design*/
+.flower-hard-topic-2{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.photo-3 {
+    width: 120px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.photo-1{
+    width: 120px;
+    padding-left: 50px;
+    padding-top: 35px; 
+}
+.photo-2{
+    width: 130px;
+    padding-left: 50px;
+    padding-top: 70px;
+}
+.flower-tree{
+    text-decoration: underline;
+    font-size: 10px;
+    padding-top: 25px;
+    text-align: center;
+}
+.flower-border {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 200px;
+    height: 200px;
+    padding-bottom: 0;
+}
+
+.flower-border-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 200px;
+    height: 200px;
+    padding-bottom: 0;
+}
+.flower-border-3{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
 .heading-2 {
     font-size: 40px;
     color: black;
@@ -104,28 +153,32 @@ body {
     text-align: center;
     height: 500px;
     margin: 50px 100px;
-   
+
 }
 
-.email input ,button {
+.email input,
+button {
     padding: 22px 200px 23px 22px;
     border: 0;
     gap: 20px;
     border-radius: 5px;
 }
+
 /*footer style*/
-.flower-footer{
+.flower-footer {
     background-color: black;
     height: 500px;
     margin: 0;
 }
-.heading-3{
+
+.heading-3 {
     font-size: 40px;
-    color:white;
+    color: white;
     padding-top: 150px;
     text-align: center;
 }
-.flower-paragraph-2{
+
+.flower-paragraph-2 {
     text-align: center;
     color: white;
     padding-bottom: 30px;
@@ -134,7 +187,8 @@ body {
     margin: auto;
     line-height: 25px;
 }
-.last-class{
+
+.last-class {
     text-align: center;
     color: #FFFFFF66;
     list-style: none;
